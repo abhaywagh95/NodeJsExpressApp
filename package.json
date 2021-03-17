@@ -1,0 +1,29 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "mocha --timeout 20000",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "html-metadata-parser": "^1.0.3",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
